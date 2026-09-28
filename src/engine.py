@@ -22,7 +22,7 @@ def train_epoch(net, datalodar, optim, device, epoch):
     return loss_/len(datalodar)
 
 def val(net, datalodar, device, epoch):
-    net.evel()
+    net.eval()
     loss_ = 0
     loss_num = 0
     with torch.no_grad():

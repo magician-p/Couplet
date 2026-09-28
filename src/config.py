@@ -17,7 +17,7 @@ TRAIN_DATA_PATH = PROCESSED_DATA_DIR / "train"
 TEST_DATA_PATH = PROCESSED_DATA_DIR / "test"
 
 # 模型保存目录
-MODEL_DIR = PROJECT_ROOT / "models"
+MODEL_DIR = PROJECT_ROOT / "model"
 # 保存模型参数的文件名
 MODEL_PARAMS_FILE = MODEL_DIR / "model_params.pkl"
 
@@ -28,6 +28,6 @@ PRETRAINED_MODEL_NAME = "OpenMOSS-Team/bart-base-chinese"
 TOKEN_LENGTH = 64
 
 # 训练超参
-BATCH_SIZE = 16
-EPOCHS = 1
+BATCH_SIZE = 128
+EPOCHS = 10
 LR = 1e-4
