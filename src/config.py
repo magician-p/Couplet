@@ -17,7 +17,7 @@ TRAIN_DATA_PATH = PROCESSED_DATA_DIR / "train"
 TEST_DATA_PATH = PROCESSED_DATA_DIR / "test"
 
 # 模型保存目录
-MODEL_DIR = PROJECT_ROOT / "models"
+MODEL_DIR = PROJECT_ROOT / "model"
 # 保存模型参数的文件名
 MODEL_PARAMS_FILE = MODEL_DIR / "model_params.pkl"
 
