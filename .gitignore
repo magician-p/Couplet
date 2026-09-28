@@ -1,0 +1,24 @@
+# 编辑器
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 预处理产物（保留目录，忽略内容）
+data/processed/*
+!data/processed/.gitkeep
+
+# 训练产物（锚定根目录，避免误伤 src/model/）
+/model/*
+!/model/.gitkeep
+
+# 日志（保留目录，忽略内容）
+/log/*
+!/log/.gitkeep
